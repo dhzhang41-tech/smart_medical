@@ -21,18 +21,17 @@
 
 ## 项目结构
 
-```
-smart_medical/
-├── src/
-│   ├── agent/          # 意图识别与 Cypher 查询生成
-│   ├── backend/        # FastAPI 后端 + 前端页面
-│   ├── configuration/  # 数据库连接配置
-│   └── datasync/       # 数据清洗、实体对齐、导入
-├── data/               # 数据文件（需自行准备，见下方说明）
-├── pretrained/         # 预训练模型（需自行下载，见下方说明）
-└── .env                # API Key 配置（需自行创建）
-```
+## 项目结构
 
+    smart_medical/
+    ├── src/
+    │   ├── agent/          # 意图识别与 Cypher 查询生成
+    │   ├── backend/        # FastAPI 后端 + 前端页面
+    │   ├── configuration/  # 数据库连接配置
+    │   └── datasync/       # 数据清洗、实体对齐、导入
+    ├── data/               # 数据文件（需自行准备）
+    ├── pretrained/         # 预训练模型（需自行下载）
+    └── .env                # API Key 配置（需自行创建）
 ## 运行方法
 
 ### 1. 下载预训练模型
